@@ -43,7 +43,6 @@ dev.off()
 
 
 
-
 pdf("/Users/rohitk/Documents/RstmFiles/XclusSemcohArgument.pdf")
 plot(g$exclus, g$semcoh,pch=26, cex=2,ylim=range(c(h$semcoh,g$semcoh)),xlim=range(c(h$exclus,g$exclus)),xlab="exclusivity",ylab="semantic coherence")
 text(g$exclus, g$semcoh, labels=g$K, cex=0.75, font=2,col="black")
